@@ -119,7 +119,7 @@
           if(position == animalLocation)
               img_src.src = "./images/animal.jpg"
           else
-              img_src.src = "./images/hole.jpg"
+              img_src.src = "./images/holes.jpg"
 
           triesCount++
           document.getElementById("tries").innerHTML = "Number of tries is " + triesCount
@@ -150,7 +150,7 @@
           document.getElementById("tries").innerHTML = "Number of tries is 0."
           for(var i=0; i<24; i++){
               if(ids[i] == ids[animalLocation])
-                  document.getElementById(ids[i]).src = "./images/MoneyPlant.jpg"
+                  document.getElementById(ids[i]).src = "./images/plant.jpg"
               else
                   document.getElementById(ids[i]).src = "./images/animal.jpg"
           }
